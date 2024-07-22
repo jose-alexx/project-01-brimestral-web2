@@ -1,5 +1,5 @@
 body, html {
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex; 
     flex-direction: column;
     align-items: center;  
@@ -27,7 +27,7 @@ body, html {
     border-top: 2px solid #ECEFF2;
     margin: 0 auto 0 auto;
 }
-.container__main--aling, .container__footer--aling {
+.main__image, .footer__aling {
     text-align: center;
 }
 .main__image {
@@ -39,7 +39,7 @@ body, html {
     display: inline;
     font-weight: normal /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight */
 }
-#text__paragrafo, #container__footer {
+#text__paragrafo, #footer__ancora {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
 }
@@ -47,7 +47,7 @@ body, html {
     color: #7D7987;
     margin-top: 50px;
 }
-#container__footer {
+#footer__ancora {
     text-decoration: none;
     padding-top: 8px;
 }
