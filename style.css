@@ -2,13 +2,15 @@ body, html {
     /* overflow: hidden; */
     display: flex; 
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
+    height: 100vh;
 }
 #container {
     width: 1280px;
     height: 720px;
     background-color: #ffffff;
     padding: 50px;
+    box-sizing: border-box; 
 }
 .main, .footer {
     display: flex;
@@ -25,7 +27,7 @@ body, html {
     width: 592px;
     height: 36px;
     border-top: 2px solid #ECEFF2;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 130px auto;
 }
 .main__image, .footer__aling {
     text-align: center;
