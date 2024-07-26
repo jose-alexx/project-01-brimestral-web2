@@ -3,14 +3,14 @@ body, html {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 #container {
     width: 1280px;
     height: 720px;
     background-color: #ffffff;
+    box-sizing: border-box;
     padding: 50px;
-    box-sizing: border-box; 
 }
 .main, .footer {
     display: flex;
@@ -21,7 +21,7 @@ body, html {
     width: 592px;
     height: 404px;
     margin: 0 auto 100px auto;
-    text-align: right; /* Para poder alinha o cabeçalho a esquerda*/
+    text-align: right; /* Para poder alinha o corpo a esquerda*/
 }
 .footer {
     width: 592px;
@@ -29,10 +29,10 @@ body, html {
     border-top: 2px solid #ECEFF2;
     margin: 0 auto 130px auto;
 }
-.main__image, .footer__aling {
+.main__aling, .footer__aling {
     text-align: center;
 }
-.main__image {
+.main__aling {
     margin-bottom: 20px;
 }
 #text__titulo {
@@ -41,15 +41,15 @@ body, html {
     display: inline;
     font-weight: normal /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight */
 }
-#text__paragrafo, #footer__ancora {
+.text__paragrafo, .footer__ancora {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
 }
-#text__paragrafo {
+.text__paragrafo {
     color: #7D7987;
     margin-top: 50px;
 }
-#footer__ancora {
+.footer__ancora {
     text-decoration: none;
     padding-top: 8px;
 }
